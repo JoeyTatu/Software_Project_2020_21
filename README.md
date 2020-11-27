@@ -1,3 +1,18 @@
+# [National College of Ireland](https://ncirl.ie)
+
+# Project Proposal
+
+# Automatic Retinopathy Detection Using Digital Image Processing via a Smart Device
+
+# November 2020
+
+# BSc. (Honours) in Computing
+# Software Development
+# 2020/2021
+# Joey Tatú
+# 15015556
+# [joey.tatu@student.ncirl.ie](mailto:joey.tatu@student.ncirl.ie)
+
 # Objectives
 ## General
 The objective of this project is to create an app that detects retinopathy. This will be created as an Android application using Android Studio.
