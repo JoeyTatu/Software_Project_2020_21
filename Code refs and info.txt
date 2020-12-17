@@ -1,0 +1,44 @@
+References and random code
+
+/* @references:
+
+Vishnu, J., 2020. Integrating Google Sign-In into Android App. [Online]
+Available at: https://medium.com/dev-genius/integrating-google-sign-in-into-android-app-70d582f4eed8
+[Accessed 17 December 2020].
+*/
+
+//@ref (Vishnu, 2020)
+
+
+
+Enter keystore password:  android
+Keystore type: JKS
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: androiddebugkey
+Creation date: 16 Oct 2020
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: C=US, O=Android, CN=Android Debug
+Issuer: C=US, O=Android, CN=Android Debug
+Serial number: 1
+Valid from: Fri Oct 16 23:14:04 IST 2020 until: Sun Oct 09 23:14:04 IST 2050
+Certificate fingerprints:
+         SHA1: C5:A2:68:ED:EC:40:AE:D6:48:82:A9:87:86:AB:43:EB:16:06:D7:CF
+         SHA256: 3A:C5:11:A7:D7:B6:BA:EA:EA:6F:48:58:F3:95:ED:EA:13:BE:E2:95:B1:A2:2B:4B:36:14:6F:93:AE:A2:DF:E6
+Signature algorithm name: SHA1withRSA (weak)
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 1
+
+
+*******************************************
+*******************************************
+
+
+
+Warning:
+<androiddebugkey> uses the SHA1withRSA signature algorithm which is considered a security risk. This algorithm will be disabled in a future update.
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore C:/Users/x15015556/.android/debug.keystore -destkeystore C:/Users/x15015556/.android/debug.keystore -deststoretype pkcs12".
