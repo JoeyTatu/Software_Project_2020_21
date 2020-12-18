@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DR Detection</string>
+    <string name="compose_email">Compose Email</string>
+</resources>
