@@ -25,7 +25,7 @@ import java.nio.ByteOrder
 import java.nio.MappedByteBuffer
 import java.nio.channels.FileChannel
 
-var title: TextView? = null
+//val title : TextView? = null
 var share_btn: Button? = null
 var image: Bitmap? = null
 var imageView: ImageView? = null
@@ -49,10 +49,11 @@ class ResultsActivity : AppCompatActivity() {
         setImage()
 
         val startBtn = findViewById<View>(R.id.sendEmail) as Button
-//        share_btn
-        title
-//        title.paintFlags = title.paintFlags or Paint.UNDERLINE_TEXT_FLAG.inv()
-//        title.paintFlags(title.paintFlags() or Paint.UNDERLINE_TEXT_FLAG)
+//        val title = findViewById<TextView>(R.id.title)
+//        title.setpaintFlags(title.getpaintFlags() or Paint.UNDERLINE_TEXT_FLAG)
+
+        val title = findViewById<TextView>(R.id.title)
+        title.paintFlags = title.paintFlags or Paint.UNDERLINE_TEXT_FLAG
 
         startBtn.setOnClickListener(View.OnClickListener { sendEmail() })
         share_btn.setOnClickListener(View.OnClickListener { shareWithEveryone() })
