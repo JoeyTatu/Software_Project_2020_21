@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TFL-Image Classification</string>
+    <string name="take_picture">Take picture</string>
+    <string name="open_gallery">Open gallery</string>
+</resources>
