@@ -1,0 +1,76 @@
+{
+  "Sample": {
+    "Title": "Calling Microsoft Graph from an Android app",
+    "Level": 200,
+    "Client": "Android"
+  },
+  "AppRegistrations": [
+    {
+      "x-ms-id": "active-directory-android-java",
+      "x-ms-name": "android-java",
+      "x-ms-version": "1.0",
+      "replyUrlsWithType": [],
+      "requiredResourceAccess": [
+        {
+          "x-ms-resourceAppName": "Microsoft Graph",
+          "resourceAppId": "00000003-0000-0000-c000-000000000000",
+          "resourceAccess": [
+            {
+              "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+              "type": "Scope",
+              "x-ms-name": "user.read"
+            }
+          ]
+        }
+      ],
+      "codeConfigurations": [	
+          {
+            "settingFile": "/app/src/main/res/raw/auth_config_multiple_account.json",
+            "replaceTokens": {
+                "appId": "0984a7b6-bc13-4141-8b0d-8f767e136bb7",
+                "authorityEndpointHost": "https://login.microsoftonline.com/",
+                "tenantId": "common",
+                "redirectUri": "msauth://com.azuresamples.msalandroidapp/1wIqXSqBj7w%2Bh11ZifsnqwgyKrY%3D"
+             }
+          },
+          {
+            "settingFile": "/app/src/main/res/raw/auth_config_single_account.json",
+            "replaceTokens": {
+                "appId": "0984a7b6-bc13-4141-8b0d-8f767e136bb7",
+                "authorityEndpointHost": "https://login.microsoftonline.com/",
+                "tenantId": "common",
+                "redirectUri": "msauth://com.azuresamples.msalandroidapp/1wIqXSqBj7w%2Bh11ZifsnqwgyKrY%3D"
+             }
+           },
+         {
+            "settingFile": "/app/src/main/res/raw/auth_config_b2c.json",
+            "replaceTokens": {
+                "appId": "0984a7b6-bc13-4141-8b0d-8f767e136bb7",
+                "authorityEndpointHost": "https://login.microsoftonline.com/",
+                "tenantId": "common",
+                "redirectUri": "msauth://com.azuresamples.msalandroidapp/1wIqXSqBj7w%2Bh11ZifsnqwgyKrY%3D"
+             }
+           },
+           {
+             "settingFile": "/app/src/main/AndroidManifest.xml",
+             "replaceTokens": {
+                "packageNameManifest": "android:host=\"com.azuresamples.msalandroidapp\"",
+                "keyHash": "1wIqXSqBj7w+h11ZifsnqwgyKrY="
+              }
+           },
+           {
+            "settingFile": "/app/build.gradle",
+            "replaceTokens": {
+               "packageNameGradle": "com.azuresamples.msalandroidapp"
+             }
+           },
+           {
+            "settingFile": "/app/src/main/java/com/azuresamples/msalandroidapp/MSGraphRequestWrapper.java",
+            "replaceTokens": {
+                "msgraphEndpointHost": "https://graph.microsoft.com/"
+             }
+           }
+       ]	
+     }
+  ]
+}
