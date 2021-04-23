@@ -2,7 +2,7 @@
 * [National College of Ireland](https://ncirl.ie)
 * Project Proposal
 * Automatic Retinopathy Detection Using Digital Image Processing via a Smart Device
-* November 2020
+* October 2020 - June 2021
 * BSc. (Honours) in Computing
 * Software Development
 * 2020/2021
