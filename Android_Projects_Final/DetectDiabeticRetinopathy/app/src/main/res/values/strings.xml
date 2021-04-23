@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Detect Diabetic Retinopathy</string>
+    <string name="facebook_app_id">927107168075416</string>
+    <string name="fb_login_protocol_scheme">fb927107168075416</string>
+
+
+</resources>
