@@ -1,0 +1,16 @@
+{
+  "client_id" : "bbce4a8a-4098-43f7-8d5a-4ec15e3baea2",
+  "authorization_user_agent" : "DEFAULT",
+  "redirect_uri" : "msauth://ie.ncirl.student.x15015556.ms_login_example/df%2FWrQM67qwAZFa%2F4i5uTORfZgI%3D",
+  "broker_redirect_uri_registered" : true,
+  "account_mode" : "SINGLE",
+  "authorities" : [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADandPersonalMicrosoftAccount",
+        "tenant_id": "common"
+      }
+    }
+  ]
+}
