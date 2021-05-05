@@ -1,0 +1,6 @@
+ie/ncirl/student/x15015556/socialsitelogin/BuildConfig.java
+ ie.ncirl.student.x15015556.socialsitelogin.BuildConfig
+ie/ncirl/student/x15015556/socialsitelogin/MainActivity.java
+ ie.ncirl.student.x15015556.socialsitelogin.MainActivity
+ ie.ncirl.student.x15015556.socialsitelogin.MainActivity$1
+ ie.ncirl.student.x15015556.socialsitelogin.MainActivity$1$1

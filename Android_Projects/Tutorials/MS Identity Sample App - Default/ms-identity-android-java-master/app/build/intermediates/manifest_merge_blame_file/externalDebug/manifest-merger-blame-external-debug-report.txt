@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.azuresamples.msalandroidapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:10:5-67
+11-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:10:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:11:5-79
+12-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:11:22-76
+13    <!--
+14     Required for API Level 30 to make sure we can detect browsers and other apps we want to
+15     be able to talk to.
+16    -->
+17    <!-- https://developer.android.com/training/basics/intents/package-visibility-use-cases -->
+18    <queries>
+18-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:19:5-39:15
+19        <package android:name="com.azure.authenticator" />
+19-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:20:9-59
+19-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:20:18-56
+20        <package android:name="com.microsoft.identity.testuserapp" />
+20-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:21:9-70
+20-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:21:18-67
+21        <package android:name="com.microsoft.windowsintune.companyportal" />
+21-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:22:9-77
+21-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:22:18-74
+22        <!--
+23        Required for API Level 30 to make sure we can detect browsers
+24        (that don't support custom tabs)
+25        -->
+26        <intent>
+26-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:27:9-33:18
+27            <action android:name="android.intent.action.VIEW" />
+27-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:24:17-69
+27-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:24:25-66
+28
+29            <category android:name="android.intent.category.BROWSABLE" />
+29-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:27:17-78
+29-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:27:27-75
+30
+31            <data android:scheme="https" />
+31-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:33:17-36:47
+31-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:36:21-44
+32        </intent>
+33        <!-- Required for API Level 30 to make sure we can detect browsers that support custom tabs -->
+34        <!-- https://developers.google.com/web/updates/2020/07/custom-tabs-android-11#detecting_browsers_that_support_custom_tabs -->
+35        <intent>
+35-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:36:9-38:18
+36            <action android:name="android.support.customtabs.action.CustomTabsService" />
+36-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:37:13-90
+36-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:37:21-87
+37        </intent>
+38    </queries>
+39
+40    <application
+40-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:5:5-39:19
+41        android:allowBackup="true"
+41-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:6:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.0.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\1c74942e8e3ba7c9beeed91edae47c6a\core-1.0.1\AndroidManifest.xml:22:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:7:9-43
+45        android:label="@string/app_name"
+45-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:8:9-41
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:9:9-54
+47        android:supportsRtl="true"
+47-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:10:9-35
+48        android:testOnly="true"
+49        android:theme="@style/AppTheme" >
+49-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:11:9-40
+50        <activity
+50-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:12:9-21:20
+51            android:name="com.azuresamples.msalandroidapp.MainActivity"
+51-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:13:13-41
+52            android:label="@string/app_name"
+52-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:14:13-45
+53            android:theme="@style/AppTheme.NoActionBar" >
+53-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:15:13-56
+54            <intent-filter>
+54-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:16:13-20:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:17:17-69
+55-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:17:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:19:17-77
+57-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:19:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:22:9-38:20
+61            android:name="com.microsoft.identity.client.BrowserTabActivity"
+61-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:22:19-82
+62            android:exported="true" >
+62-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:32:13-36
+63            <intent-filter>
+63-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:23:13-37:29
+64                <action android:name="android.intent.action.VIEW" />
+64-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:24:17-69
+64-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:24:25-66
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:26:17-76
+66-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:26:27-73
+67                <category android:name="android.intent.category.BROWSABLE" />
+67-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:27:17-78
+67-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:27:27-75
+68
+69                <!--
+70                    Add in your scheme/host from registered redirect URI
+71                    note that the leading "/" is required for android:path
+72                -->
+73                <data
+73-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:33:17-36:47
+74                    android:host="com.azuresamples.msalandroidapp"
+74-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:34:21-67
+75                    android:path="/1wIqXSqBj7w+h11ZifsnqwgyKrY="
+75-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:35:21-65
+76                    android:scheme="msauth" />
+76-->C:\Users\x15015556\Desktop\ms-identity-android-java-master\ms-identity-android-java-master\app\src\main\AndroidManifest.xml:36:21-44
+77            </intent-filter>
+78        </activity>
+79        <!-- MSAL activity that will be used to process all the auth related logic -->
+80        <activity
+80-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:16:9-20:47
+81            android:name="com.microsoft.identity.common.internal.providers.oauth2.AuthorizationActivity"
+81-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:17:13-105
+82            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+82-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:18:13-106
+83            android:exported="false"
+83-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:19:13-37
+84            android:launchMode="singleTask" /> <!-- Helper activity for displaying current broker redirect URI configuration -->
+84-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:20:13-44
+85        <activity
+85-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:23:9-27:47
+86            android:name="com.microsoft.identity.client.helper.BrokerHelperActivity"
+86-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:24:13-85
+87            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout"
+87-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:25:13-106
+88            android:exported="false"
+88-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:26:13-37
+89            android:launchMode="singleTask" /> <!-- Activity to invoke an interactive request to the intent passed by ad-accounts(Broker) -->
+89-->[com.microsoft.identity.client:msal:2.0.8] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\921e261aaab0b7f9d2a5c5fc0cc552b1\jetified-msal-2.0.8\AndroidManifest.xml:27:13-44
+90        <activity android:name="com.microsoft.identity.common.internal.broker.BrokerActivity" />
+90-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:47:9-97
+90-->[com.microsoft.identity:common:3.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\256ad8019eb01fb83a116d9c7bf98102\jetified-common-3.1.2\AndroidManifest.xml:47:19-94
+91    </application>
+92
+93</manifest>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df857509-b59e-4a8e-ba96-dd66df4e77a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/release/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/release/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/androidTest/java/ie/ncirl/student/x15015556/googlesigninexample/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/java/ie/ncirl/student/x15015556/googlesigninexample/FirstFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/java/ie/ncirl/student/x15015556/googlesigninexample/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/java/ie/ncirl/student/x15015556/googlesigninexample/SecondFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/layout/content_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/layout/fragment_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/app/src/test/java/ie/ncirl/student/x15015556/googlesigninexample/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/key.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/GoogleSignInExample/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/AppCreationScripts/apps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/ReadmeFiles/Authflow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/ReadmeFiles/shareddeviceflowchart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/java/com/azuresamples/msalandroidapp/B2CConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/java/com/azuresamples/msalandroidapp/B2CModeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/java/com/azuresamples/msalandroidapp/B2CUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/java/com/azuresamples/msalandroidapp/MSGraphRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/java/com/azuresamples/msalandroidapp/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/java/com/azuresamples/msalandroidapp/MultipleAccountModeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/java/com/azuresamples/msalandroidapp/OnFragmentInteractionListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/java/com/azuresamples/msalandroidapp/SingleAccountModeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/drawable/ic_multiple_account_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/drawable/ic_single_account_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/drawable/microsoft_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/layout/content_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/layout/fragment_b2c_mode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/layout/fragment_multiple_account_mode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/layout/fragment_single_account_mode.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/layout/nav_header_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/raw/auth_config_b2c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/raw/auth_config_multiple_account.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/raw/auth_config_single_account.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/values-v21/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/values/drawables.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/gradle/debug.keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/gradle/versions.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/MS Identity Sample App - Default/ms-identity-android-java-master/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/.idea/$CACHE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/androidTest/java/ie/ncirl/student/x15015556/tfl_imageclassification/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/assets/labels_mobilenet_quant_v1_224.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/assets/mobilenet_v1_1.0_224_quant.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/java/ie/ncirl/student/x15015556/tfl_imageclassification/ImageClassifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/java/ie/ncirl/student/x15015556/tfl_imageclassification/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/app/src/test/java/ie/ncirl/student/x15015556/tfl_imageclassification/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TFLImageClassification/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/download_model.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/androidTest/assets/table.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/androidTest/assets/table_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/androidTest/java/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/androidTest/java/org/tensorflow/lite/examples/detection/DetectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/assets/detect.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/assets/labelmap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/CameraActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/CameraConnectionFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/DetectorActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/LegacyCameraConnectionFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/customview/AutoFitTextureView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/customview/OverlayView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/customview/RecognitionScoreView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/customview/ResultsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/env/BorderedText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/env/ImageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/env/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/env/Size.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/java/org/tensorflow/lite/examples/detection/tracking/MultiBoxTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-xxhdpi/icn_chevron_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-xxhdpi/icn_chevron_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-xxhdpi/tfl2_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-xxhdpi/tfl2_logo_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-xxxhdpi/caret.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-xxxhdpi/chair.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable-xxxhdpi/sample_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable/bottom_sheet_bg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable/ic_baseline_add.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable/ic_baseline_remove.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/drawable/rectangle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/layout/tfe_od_activity_camera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/layout/tfe_od_camera_connection_fragment_tracking.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/layout/tfe_od_layout_bottom_sheet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/.transforms/87b25d64da4944e80fbfe1a63c2921ed.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/.transforms/87b25d64da4944e80fbfe1a63c2921ed/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/.transforms/d28fc5365c764a7a0510836775a7a1f2.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/.transforms/d28fc5365c764a7a0510836775a7a1f2/classes/classes.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/generated/source/buildConfig/debug/org/tensorflow/lite/examples/detection/tflite/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/aar_metadata/debug/aar-metadata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/compile_library_classes_jar/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/javac/debug/classes/org/tensorflow/lite/examples/detection/tflite/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/javac/debug/classes/org/tensorflow/lite/examples/detection/tflite/Detector$Recognition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/javac/debug/classes/org/tensorflow/lite/examples/detection/tflite/Detector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/javac/debug/classes/org/tensorflow/lite/examples/detection/tflite/TFLiteObjectDetectionAPIModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/navigation_json/debug/navigation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/packaged_manifests/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/runtime_library_classes_jar/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/src/main/java/org/tensorflow/lite/examples/detection/tflite/Detector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_interpreter/src/main/java/org/tensorflow/lite/examples/detection/tflite/TFLiteObjectDetectionAPIModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/generated/source/buildConfig/debug/org/tensorflow/lite/examples/detection/tflite/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/aar_main_jar/debug/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/aar_metadata/debug/aar-metadata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/annotations_typedef_file/debug/typedefs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/compile_r_class_jar/debug/R.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/compile_symbol_list/debug/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/javac/debug/classes/org/tensorflow/lite/examples/detection/tflite/BuildConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/javac/debug/classes/org/tensorflow/lite/examples/detection/tflite/Detector$Recognition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/javac/debug/classes/org/tensorflow/lite/examples/detection/tflite/Detector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/javac/debug/classes/org/tensorflow/lite/examples/detection/tflite/TFLiteObjectDetectionAPIModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/packaged_manifests/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/outputs/aar/lib_task_api-debug.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/src/main/java/org/tensorflow/lite/examples/detection/tflite/Detector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/lib_task_api/src/main/java/org/tensorflow/lite/examples/detection/tflite/TFLiteObjectDetectionAPIModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/screenshot/OD_Android_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/screenshot/OD_Android_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/screenshot/device-2018-08-10-173223.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/screenshot/device-2018-09-04-121223.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/screenshot/device-2018-09-04-121257.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Android_Project_Examples/TensorFlowLiteObjectDetection/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1rIZmfxRlzQQbCExdjYdu6A4C4B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../ms-identity-android-java-master" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ms-identity-android-java-master.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df857509-b59e-4a8e-ba96-dd66df4e77a5" name="Default Changelist" comment="" />
+      <created>1618665724225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618665724225</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1618668926132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1618668926132" />
+    <state width="1323" height="136" key="GridCell.Tab.0.bottom" timestamp="1618665899979">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="136" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618665899979" />
+    <state width="1323" height="136" key="GridCell.Tab.0.center" timestamp="1618665899978">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="136" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1618665899978" />
+    <state width="1323" height="136" key="GridCell.Tab.0.left" timestamp="1618665899978">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="136" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1618665899978" />
+    <state width="1323" height="136" key="GridCell.Tab.0.right" timestamp="1618665899979">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="136" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1618665899979" />
+  </component>
+</project>

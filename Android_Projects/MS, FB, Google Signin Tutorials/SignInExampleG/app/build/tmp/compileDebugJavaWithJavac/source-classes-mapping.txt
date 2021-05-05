@@ -1,0 +1,9 @@
+ie/ncirl/student/x15015556/signinexampleg/SecondActivity.java
+ ie.ncirl.student.x15015556.signinexampleg.SecondActivity
+ ie.ncirl.student.x15015556.signinexampleg.SecondActivity$1
+ ie.ncirl.student.x15015556.signinexampleg.SecondActivity$2
+ie/ncirl/student/x15015556/signinexampleg/MainActivity.java
+ ie.ncirl.student.x15015556.signinexampleg.MainActivity
+ ie.ncirl.student.x15015556.signinexampleg.MainActivity$1
+ie/ncirl/student/x15015556/signinexampleg/BuildConfig.java
+ ie.ncirl.student.x15015556.signinexampleg.BuildConfig

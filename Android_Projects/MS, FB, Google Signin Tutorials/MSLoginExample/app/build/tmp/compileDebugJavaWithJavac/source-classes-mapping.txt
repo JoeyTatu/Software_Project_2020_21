@@ -1,0 +1,11 @@
+ie/ncirl/student/x15015556/ms_login_example/BuildConfig.java
+ ie.ncirl.student.x15015556.ms_login_example.BuildConfig
+ie/ncirl/student/x15015556/ms_login_example/MainActivity.java
+ ie.ncirl.student.x15015556.ms_login_example.MainActivity
+ ie.ncirl.student.x15015556.ms_login_example.MainActivity$1
+ie/ncirl/student/x15015556/ms_login_example/FirstFragment.java
+ ie.ncirl.student.x15015556.ms_login_example.FirstFragment
+ ie.ncirl.student.x15015556.ms_login_example.FirstFragment$1
+ie/ncirl/student/x15015556/ms_login_example/SecondFragment.java
+ ie.ncirl.student.x15015556.ms_login_example.SecondFragment
+ ie.ncirl.student.x15015556.ms_login_example.SecondFragment$1

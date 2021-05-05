@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.identity:common:3.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f97a29aaeb19e714523b422d599f8d3f/jetified-common-3.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f97a29aaeb19e714523b422d599f8d3f/jetified-common-3.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f97a29aaeb19e714523b422d599f8d3f/jetified-common-3.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.identity/common/3.1.2/ff3674a5341fe303b9eeebf5ba7037a8a585863d/common-3.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

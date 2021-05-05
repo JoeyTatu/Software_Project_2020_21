@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "ie.ncirl.student.x15015556.ms_login_example",
+  "variantName": "externalDebug",
+  "elements": []
+}

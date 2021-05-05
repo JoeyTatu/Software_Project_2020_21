@@ -1,0 +1,4 @@
+#Sat Apr 17 14:27:37 BST 2021
+base.0=C\:\\Users\\x15015556\\Desktop\\ms-identity-android-java-master\\ms-identity-android-java-master\\app\\build\\intermediates\\dex\\externalDebug\\mergeDexExternalDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

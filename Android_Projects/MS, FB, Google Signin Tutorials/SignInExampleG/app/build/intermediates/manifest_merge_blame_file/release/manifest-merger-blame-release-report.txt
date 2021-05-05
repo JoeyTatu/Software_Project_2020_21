@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ie.ncirl.student.x15015556.signinexampleg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:7:5-21:19
+14        android:allowBackup="true"
+14-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b234a824af7fd98a5c54fc0522824a91\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:9:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:10:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:11:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:12:9-35
+20        android:theme="@style/Theme.SignInExampleG" >
+20-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:13:9-52
+21        <activity android:name="ie.ncirl.student.x15015556.signinexampleg.MainActivity" >
+21-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:14:9-20:20
+21-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:14:19-47
+22            <intent-filter>
+22-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:15:13-19:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:16:17-69
+23-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:18:17-77
+25-->C:\Users\x15015556\Desktop\Android_Projects\SignInExampleG\app\src\main\AndroidManifest.xml:18:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity
+28-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+29            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+29-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+30            android:excludeFromRecents="true"
+30-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+31            android:exported="false"
+31-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+32            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+32-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+33        <!--
+34            Service handling Google Sign-In user revocation. For apps that do not integrate with
+35            Google Sign-In, this service will never be started.
+36        -->
+37        <service
+37-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+38            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+38-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+39            android:exported="true"
+39-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+40            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+40-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+41            android:visibleToInstantApps="true" />
+41-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\83b845f1ce0bf61411ef0508f8c46208\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+42
+43        <activity
+43-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\1ba2f28cbc7d2590c038e3ffb31f9f7a\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+44            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+44-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\1ba2f28cbc7d2590c038e3ffb31f9f7a\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+45            android:exported="false"
+45-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\1ba2f28cbc7d2590c038e3ffb31f9f7a\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+46-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\1ba2f28cbc7d2590c038e3ffb31f9f7a\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+47
+48        <meta-data
+48-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\0fab4de84d54b001567e7ac89c918419\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+49            android:name="com.google.android.gms.version"
+49-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\0fab4de84d54b001567e7ac89c918419\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+50            android:value="@integer/google_play_services_version" />
+50-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\0fab4de84d54b001567e7ac89c918419\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+51    </application>
+52
+53</manifest>

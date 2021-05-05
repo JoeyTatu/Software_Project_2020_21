@@ -3,5 +3,8 @@
     <string name="facebook_app_id">927107168075416</string>
     <string name="fb_login_protocol_scheme">fb927107168075416</string>
 
+    <string name="welcome">Welcome,</string>
+    <string name="signOut">Sign out</string>
+    <string name="revokeAccess">Revoke access</string>
 
 </resources>

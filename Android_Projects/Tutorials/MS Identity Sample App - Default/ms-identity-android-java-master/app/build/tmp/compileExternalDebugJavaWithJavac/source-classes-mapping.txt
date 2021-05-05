@@ -1,0 +1,55 @@
+com/azuresamples/msalandroidapp/B2CModeFragment.java
+ com.azuresamples.msalandroidapp.B2CModeFragment
+ com.azuresamples.msalandroidapp.B2CModeFragment$1
+ com.azuresamples.msalandroidapp.B2CModeFragment$2
+ com.azuresamples.msalandroidapp.B2CModeFragment$3
+ com.azuresamples.msalandroidapp.B2CModeFragment$4
+ com.azuresamples.msalandroidapp.B2CModeFragment$5
+ com.azuresamples.msalandroidapp.B2CModeFragment$5$1
+ com.azuresamples.msalandroidapp.B2CModeFragment$6
+ com.azuresamples.msalandroidapp.B2CModeFragment$7
+ com.azuresamples.msalandroidapp.B2CModeFragment$8
+ com.azuresamples.msalandroidapp.B2CModeFragment$9
+com/azuresamples/msalandroidapp/MultipleAccountModeFragment.java
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$1
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$10
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$2
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$2$1
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$3
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$4
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$5
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$6
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$7
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$8
+ com.azuresamples.msalandroidapp.MultipleAccountModeFragment$9
+com/azuresamples/msalandroidapp/BuildConfig.java
+ com.azuresamples.msalandroidapp.BuildConfig
+com/azuresamples/msalandroidapp/SingleAccountModeFragment.java
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$1
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$10
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$2
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$3
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$3$1
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$4
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$5
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$6
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$7
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$8
+ com.azuresamples.msalandroidapp.SingleAccountModeFragment$9
+com/azuresamples/msalandroidapp/MainActivity.java
+ com.azuresamples.msalandroidapp.MainActivity
+ com.azuresamples.msalandroidapp.MainActivity$1
+ com.azuresamples.msalandroidapp.MainActivity$2
+ com.azuresamples.msalandroidapp.MainActivity$AppFragment
+com/azuresamples/msalandroidapp/OnFragmentInteractionListener.java
+ com.azuresamples.msalandroidapp.OnFragmentInteractionListener
+com/azuresamples/msalandroidapp/B2CUser.java
+ com.azuresamples.msalandroidapp.B2CUser
+ com.azuresamples.msalandroidapp.B2CUser$1
+com/azuresamples/msalandroidapp/B2CConfiguration.java
+ com.azuresamples.msalandroidapp.B2CConfiguration
+com/azuresamples/msalandroidapp/MSGraphRequestWrapper.java
+ com.azuresamples.msalandroidapp.MSGraphRequestWrapper
+ com.azuresamples.msalandroidapp.MSGraphRequestWrapper$1
