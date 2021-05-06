@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_third.xml.flat",
+        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_third.xml"
+    },
+    {
         "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -18,10 +22,6 @@
     {
         "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_facebook_login.png.flat",
-        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\drawable\\facebook_login.png"
     },
     {
         "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -44,16 +44,16 @@
         "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_second.xml.flat",
-        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_second.xml"
-    },
-    {
         "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_patient.xml.flat",
+        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_patient.xml"
     },
     {
         "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",

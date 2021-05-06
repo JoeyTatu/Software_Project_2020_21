@@ -16,9 +16,7 @@
 12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 12-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:6:5-79
 12-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:6:22-77
-13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-13-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:7:5-81
-13-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:7:22-79
+13    <!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/> -->
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 14-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:8:5-80
 14-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:8:22-78
@@ -118,10 +116,12 @@
 62-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:41:27-74
 63            </intent-filter>
 64        </activity>
-65        <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.SecondActivity" >
-65-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:44:9-45:20
-65-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:44:19-49
-66        </activity>
+65        <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.PatientActivity" />
+65-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:44:9-52
+65-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:44:19-50
+66        <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.ThirdActivity" />
+66-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:45:9-50
+66-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:45:19-48
 67        <activity android:name="com.facebook.CustomTabMainActivity" />
 67-->[com.facebook.android:facebook-common:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\43b665a11fe79149804d71a79b9390dd\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
 67-->[com.facebook.android:facebook-common:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\43b665a11fe79149804d71a79b9390dd\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68

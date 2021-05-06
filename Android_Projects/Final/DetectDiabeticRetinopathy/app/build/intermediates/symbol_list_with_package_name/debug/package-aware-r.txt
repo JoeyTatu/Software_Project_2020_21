@@ -1756,7 +1756,6 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable facebook_login
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_clock_black_24dp
@@ -1908,6 +1907,8 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnClear
+id btnContinue
 id btnRevokeAccess
 id btnSignOut
 id btn_facebook_login
@@ -1996,6 +1997,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id etPatientID
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2037,6 +2039,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivError
 id jumpToEnd
 id jumpToStart
 id labelGroup
@@ -2252,9 +2255,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvError
 id tvGoogleID
+id tvGoogleIDHeading
 id tvGoogleName
 id tvGoogleNameHeader
+id tvPatientIDHeading
 id txt_status
 id txt_title
 id unchecked
@@ -2333,7 +2339,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-layout activity_second
+layout activity_patient
+layout activity_third
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout com_facebook_activity_layout
@@ -2476,6 +2483,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string clear
 string clear_text_end_icon_content_description
 string com_facebook_device_auth_instructions
 string com_facebook_image_download_unknown_error
@@ -2518,7 +2526,9 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string cont
 string error_icon_content_description
+string etPatientID
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -2583,11 +2593,14 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string patientError
+string patientID
 string revokeAccess
 string search_menu_title
 string signOut
 string status_bar_notification_info_overflow
 string welcome
+string yourGoogleID
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

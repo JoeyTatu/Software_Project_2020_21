@@ -4,11 +4,17 @@ import android.content.Context;
 import android.util.Log;
 
 import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
 
 public class ReadWriteToFile {
 
@@ -31,6 +37,51 @@ public class ReadWriteToFile {
             Log.e("Exception", "File write failed: " + e.toString());
         }
     }
+
+    public static void writeToFilePatientID(String data, Context context) {
+        try {
+            OutputStreamWriter outputStreamWriter = new OutputStreamWriter(context.openFileOutput("patientID.txt", Context.MODE_PRIVATE));
+            outputStreamWriter.write(data);
+            outputStreamWriter.close();
+        } catch (IOException e) {
+            Log.e("Exception", "File write failed: " + e.toString());
+        }
+    }
+
+//    public static void writeArray(String filename, String[] data, Context context){
+//        try {
+//            FileOutputStream fileOutputStream  = context.openFileOutput(filename, Context.MODE_APPEND);
+//            for (String s : data) {
+//                fileOutputStream.write(s.getBytes());
+//            }
+//            fileOutputStream.close();
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+
+//    public static String convertStreamToString(InputStream is) throws Exception {
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+//        StringBuilder sb = new StringBuilder();
+//        String line = null;
+//        while ((line = reader.readLine()) != null){
+//            sb.append(line).append("\n");
+//        }
+//        reader.close();
+//
+//        return sb.toString();
+//    }
+//
+//    public static String getStringFromFile (String filePath) throws Exception {
+//        File f1 = new File(filePath);
+//        FileInputStream fin = new FileInputStream(f1);
+//        String ret = convertStreamToString(fin);
+//
+//        fin.close();
+//
+//        return ret;
+//    }
 
     public static String readFromFileGoogleID(Context context) {
         String googleID = "";
@@ -93,5 +144,36 @@ public class ReadWriteToFile {
 
         }
         return googleName;
+    }
+
+    public static String readFromFilePatientID(Context context) {
+        String patientID = "";
+
+        try {
+            InputStream inputStream = context.openFileInput("patientID.txt");
+
+            if (inputStream != null) {
+                InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+                String receiveString = "";
+                StringBuilder stringBuilder = new StringBuilder();
+
+                while ((receiveString = bufferedReader.readLine()) != null) {
+                    stringBuilder.append(receiveString);
+                }
+
+                inputStream.close();
+                patientID = stringBuilder.toString();
+
+            }
+
+        } catch (FileNotFoundException e) {
+            Log.e("ReadFromFile", "patientID.txt not found: " + e.toString());
+
+        } catch (IOException e) {
+            Log.e("ReadFromFile", "Cannot read file 'patientID.txt': " + e.toString());
+
+        }
+        return patientID;
     }
 }

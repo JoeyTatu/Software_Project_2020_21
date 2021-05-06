@@ -20,7 +20,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowInsets;
 import android.view.WindowInsetsController;
 import android.view.WindowManager;
@@ -37,6 +36,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.GoogleApiClient;
 
+
 // FACEBOOK CODE IN MainActivity_OldVersion3.java.
 // Facebook only allows API access for 72 hours for apps in development stage.
 // Code is present and works, but may not work with examiner.
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //    private TextView status; // This will show any errors with Login to the user
 //    private String username, facebookID, googleID;
     private String googleID, googleName;
-    private Intent secondActivity;
+    private Intent patientActivity;
     boolean signedIn;
 
     // Google
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //        FacebookSdk.sdkInitialize(getApplicationContext());
-        requestWindowFeature(Window.FEATURE_NO_TITLE); //will hide the title
+//        requestWindowFeature(Window.FEATURE_NO_TITLE); //will hide the title
         setContentView(R.layout.activity_main);
 
         //App runs full screen, no header or status bar.
@@ -81,11 +81,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             );
         }
 
-        secondActivity = new Intent(MainActivity.this, SecondActivity.class);
+        patientActivity = new Intent(MainActivity.this, PatientActivity.class);
 
         signedIn = checkIfSignedIn();
         if (signedIn){
-            startActivity(secondActivity);
+            startActivity(patientActivity);
         }
 
 
@@ -101,12 +101,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .build();
 
         if (mGoogleApiClient != null && mGoogleApiClient.isConnected()) {
-            startActivity(secondActivity);
+            startActivity(patientActivity);
         }
 
 
         btnGoogleSignIn = findViewById(R.id.btn_google_sign_in);
         btnGoogleSignIn.setOnClickListener(v -> googleSignIn());
+
+
     }
 
     private boolean checkIfSignedIn() {
@@ -142,7 +144,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(intent, GOOGLE_SIGN_IN);
     }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -164,7 +165,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 ReadWriteToFile.writeToFileGoogleID(googleID, this);
                 ReadWriteToFile.writeToFileGoogleName(googleName, this);
 
-                startActivity(secondActivity);
+                startActivity(patientActivity);
 
             }
         }

@@ -140,7 +140,7 @@
 //            @Override
 //            public void onSuccess(LoginResult loginResult) {
 //                txtStatus.setText("Login Success\n" + loginResult.getAccessToken());
-//                Intent a = new Intent(MainActivity.this, SecondActivity.class);
+//                Intent a = new Intent(MainActivity.this, PatientActivity.class);
 //                startActivity(a);
 //
 //            }
@@ -174,7 +174,7 @@
 //    private void signInWithGoogle() {
 //        Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
 //        startActivityForResult(signInIntent, RC_SIGN_IN);
-//        Intent gmail = new Intent(MainActivity.this, SecondActivity.class);
+//        Intent gmail = new Intent(MainActivity.this, PatientActivity.class);
 //
 //    }
 //

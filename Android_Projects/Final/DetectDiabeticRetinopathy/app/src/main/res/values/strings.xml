@@ -3,8 +3,14 @@
     <string name="facebook_app_id">927107168075416</string>
     <string name="fb_login_protocol_scheme">fb927107168075416</string>
 
-    <string name="welcome">Welcome,</string>
+    <string name="welcome">Welcome</string>
     <string name="signOut">Sign out</string>
     <string name="revokeAccess">Revoke access</string>
+    <string name="patientID">Patient ID:</string>
+    <string name="etPatientID">Insert patient ID</string>
+    <string name="cont">Continue</string>
+    <string name="clear">Clear</string>
+    <string name="patientError">Error: Patient ID must be between 4 and 8 numbers.</string>
+    <string name="yourGoogleID">(Your Google ID:</string> <!-- Bracket is not a typo -->
 
 </resources>

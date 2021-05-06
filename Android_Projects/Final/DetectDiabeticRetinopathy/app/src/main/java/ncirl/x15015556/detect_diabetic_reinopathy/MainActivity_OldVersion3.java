@@ -38,7 +38,7 @@
 //import com.facebook.login.LoginResult;
 //import com.facebook.login.widget.LoginButton;
 //import com.google.android.gms.auth.api.Auth;
-//import com.google.android.gms.auth.api.signin.GoogleSignIn;
+//import com.google.android.gms.auth.api.signin.GoogleID;
 //import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 //import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 //import com.google.android.gms.auth.api.signin.GoogleSignInResult;
@@ -223,7 +223,7 @@
 //        if (requestCode == GOOGLE_SIGN_IN){
 //            GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
 //            if (result.isSuccess()){
-//                GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(this);
+//                GoogleSignInAccount acct = GoogleID.getLastSignedInAccount(this);
 //                String googleID = acct.getId();
 //
 //                Global.setFacebookID(null);
