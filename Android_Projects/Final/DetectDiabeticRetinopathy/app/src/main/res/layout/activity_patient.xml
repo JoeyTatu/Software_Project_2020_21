@@ -36,7 +36,7 @@
         android:id="@+id/tvGoogleID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
         android:textSize="10sp"
         app:layout_constraintStart_toEndOf="@+id/tvGoogleIDHeading"
@@ -69,7 +69,7 @@
         android:id="@+id/tvPatientIDHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="204dp"
+        android:layout_marginTop="180dp"
         android:gravity="center|center_horizontal"
         android:text="@string/patientID"
         android:textStyle="bold"
@@ -81,13 +81,14 @@
         android:id="@+id/etPatientID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="8dp"
         android:digits="0123456789"
         android:ems="10"
         android:gravity="center|center_horizontal"
         android:hint="@string/etPatientID"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPatientIDHeading" />
 
@@ -95,12 +96,12 @@
         android:id="@+id/btnClear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="#9E757272"
         android:hapticFeedbackEnabled="true"
         android:text="@string/clear"
         app:layout_constraintEnd_toEndOf="@+id/etPatientID"
-        app:layout_constraintTop_toBottomOf="@+id/etPatientID" />
+        app:layout_constraintTop_toBottomOf="@+id/tvNote" />
 
     <Button
         android:id="@+id/btnContinue"
@@ -131,7 +132,7 @@
         android:layout_marginTop="2dp"
         android:text="@string/yourGoogleID"
         android:textSize="10sp"
-        app:layout_constraintEnd_toEndOf="@+id/tvGoogleNameHeader"
+        app:layout_constraintStart_toStartOf="@+id/tvGoogleNameHeader"
         app:layout_constraintTop_toBottomOf="@+id/tvGoogleNameHeader" />
 
     <ImageView
@@ -143,4 +144,13 @@
         app:layout_constraintTop_toBottomOf="@+id/btnContinue"
         app:srcCompat="@android:drawable/ic_delete"
         android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tvNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPatientID" />
 </androidx.constraintlayout.widget.ConstraintLayout>

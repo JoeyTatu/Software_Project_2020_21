@@ -5,7 +5,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.view.WindowInsets;
 import android.view.WindowInsetsController;
 import android.view.WindowManager;
@@ -15,7 +14,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.RequiresPermission;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.auth.api.Auth;
@@ -28,9 +26,9 @@ import com.google.android.gms.common.api.Status;
 public class PatientActivity extends AppCompatActivity implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener {
 
     private GoogleApiClient mGoogleApiClient;
-    private Intent mainActivity, thirdActivity;
+    private Intent mainActivity, imageActivity;
     String patientID;
-    TextView tvError;
+    TextView tvError, tvNote;
     EditText etPatientID;
     Button btnContinue, btnClear;
     ImageView ivError;
@@ -63,14 +61,17 @@ public class PatientActivity extends AppCompatActivity implements View.OnClickLi
         TextView tvGoogleID = findViewById(R.id.tvGoogleID);
         TextView tvGoogleName = findViewById(R.id.tvGoogleName);
         tvError = findViewById(R.id.tvError);
+        tvNote = findViewById(R.id.tvNote);
         etPatientID = findViewById(R.id.etPatientID);
         btnContinue = findViewById(R.id.btnContinue);
         btnClear = findViewById(R.id.btnClear);
         ivError = findViewById(R.id.ivError);
 
 
-        mainActivity = new Intent(PatientActivity.this, MainActivity.class);
-        thirdActivity = new Intent(PatientActivity.this, ThirdActivity.class);
+
+
+        mainActivity = new Intent(PatientActivity.this, SignInActivity.class);
+        imageActivity = new Intent(PatientActivity.this, ImageActivity.class);
 
         // Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
@@ -89,17 +90,15 @@ public class PatientActivity extends AppCompatActivity implements View.OnClickLi
         String googleName = ReadWriteToFile.readFromFileGoogleName(this);
 
         // Set Google info in XML
-        tvGoogleID.setText(googleID + ")");
+        tvGoogleID.setText(googleID);
         tvGoogleName.setText(googleName);
 
-        patientID = ReadWriteToFile.readFromFilePatientID(this);
-        if ( (patientID != null) || (!(patientID.equals(""))) ) {
-            etPatientID.setText(patientID);
-        }
+
 //        if ( (patientID > 999) && (patientID < 100000000)) { //4 to 8 numbers.
 ////            patientIDString = String.valueOf(patientID); //must to turned back into a string to send to EditText // It's already set. This would set the same value
 //            etPatientID.setText(patientIDString);
 //        }
+        patientIDPresent();
 
         // Buttons
         Button btnSignOut = findViewById(R.id.btnSignOut);
@@ -118,27 +117,23 @@ public class PatientActivity extends AppCompatActivity implements View.OnClickLi
             }
         });
 
-        btnContinue.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                patientID = etPatientID.getText().toString();
-                if ((patientID.length() >= 4) && (patientID.length() <= 8)) {
-                    ReadWriteToFile.writeToFilePatientID(patientID, PatientActivity.this);
-                    startActivity(thirdActivity);
+        btnContinue.setOnClickListener(v -> {
+            patientID = etPatientID.getText().toString();
+            if ((patientID.length() >= 4) && (patientID.length() <= 8)) {
+                ReadWriteToFile.writeToFilePatientID(patientID, PatientActivity.this);
+                startActivity(imageActivity);
 
-                } else {
-                    ivError.setVisibility(View.VISIBLE);
-                    tvError.setText(getText(R.string.patientError));
-                }
+            } else {
+                ivError.setVisibility(View.VISIBLE);
+                tvError.setText(getText(R.string.patientError));
+                tvNote.setText(null);
             }
         });
 
-        btnClear.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ReadWriteToFile.writeToFilePatientID("", PatientActivity.this);
-                etPatientID.setText(null);
-            }
+        btnClear.setOnClickListener(v -> {
+            ReadWriteToFile.writeToFilePatientID("", PatientActivity.this);
+            etPatientID.setText(null);
+            tvNote.setText(null);
         });
     }
 
@@ -195,7 +190,7 @@ public class PatientActivity extends AppCompatActivity implements View.OnClickLi
                 patientID = etPatientID.getText().toString();
                 if ( (patientID.length() >= 4) && (patientID.length() <=8) ) {
                     ReadWriteToFile.writeToFilePatientID(patientID, this);
-                    startActivity(thirdActivity);
+                    startActivity(imageActivity);
 
                 } else {
                     tvError.setText(getText(R.string.patientError));
@@ -213,5 +208,19 @@ public class PatientActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
         Log.d("Google", "Google Sign In failed");
+    }
+
+    // checks whether patient ID is present and if so, adds it to etPatientID
+    // and populates tvNote
+    private void patientIDPresent() {
+        patientID = ReadWriteToFile.readFromFilePatientID(this);
+
+        if ( (patientID == null) || (patientID.equals(null)) || (patientID.equals("")) ){
+            tvNote.setText(null);
+
+        }else{
+            etPatientID.setText(patientID);
+            tvNote.setText(R.string.note);
+        }
     }
 }

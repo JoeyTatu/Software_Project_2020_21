@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ie.ncirl.student.x15015556"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\e37e836b42bfc350afc5816d60deaf33\core-1.3.2\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.DiabeticRetinopathyDetection" >
+20-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:11:9-66
+21        <activity android:name="ie.ncirl.student.x15015556.MainActivity" >
+21-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:12:19-47
+22            <intent-filter>
+22-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:13:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:14:17-69
+23-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:16:17-77
+25-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="ie.ncirl.student.x15015556.SignInActivity" />
+28-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:19:9-51
+28-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:19:19-49
+29        <activity android:name="ie.ncirl.student.x15015556.UserProfile" />
+29-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:20:9-48
+29-->C:\Users\x15015556\Desktop\Android_Projects\Midpoint-DiabeticRetinopathyDetection\app\src\main\AndroidManifest.xml:20:19-46
+30        <activity
+30-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+31            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+31-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+32            android:excludeFromRecents="true"
+32-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+33            android:exported="false"
+33-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+34            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+34-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+35        <!--
+36            Service handling Google Sign-In user revocation. For apps that do not integrate with
+37            Google Sign-In, this service will never be started.
+38        -->
+39        <service
+39-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+40            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+40-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+41            android:exported="true"
+41-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+42            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+42-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+43            android:visibleToInstantApps="true" />
+43-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\27e3c27fe1471428906c75213671e358\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+44
+45        <activity
+45-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c8a0b956ee0323b976297a5e6251e090\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+46            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+46-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c8a0b956ee0323b976297a5e6251e090\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+47            android:exported="false"
+47-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c8a0b956ee0323b976297a5e6251e090\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+48            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+48-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c8a0b956ee0323b976297a5e6251e090\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+49
+50        <meta-data
+50-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\bdfc25bb2c6eea3d291264af69c96f43\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+51            android:name="com.google.android.gms.version"
+51-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\bdfc25bb2c6eea3d291264af69c96f43\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+52            android:value="@integer/google_play_services_version" />
+52-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\bdfc25bb2c6eea3d291264af69c96f43\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+53    </application>
+54
+55</manifest>

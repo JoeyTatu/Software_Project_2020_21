@@ -1,0 +1,10 @@
+ie/ncirl/student/x15015556/drdetection/databinding/ActivityResultsBinding.java
+ ie.ncirl.student.x15015556.drdetection.databinding.ActivityResultsBinding
+ie/ncirl/student/x15015556/drdetection/databinding/ActivityMainBinding.java
+ ie.ncirl.student.x15015556.drdetection.databinding.ActivityMainBinding
+ie/ncirl/student/x15015556/drdetection/ml/Model.java
+ ie.ncirl.student.x15015556.drdetection.ml.Model
+ ie.ncirl.student.x15015556.drdetection.ml.Model$1
+ ie.ncirl.student.x15015556.drdetection.ml.Model$Outputs
+ie/ncirl/student/x15015556/drdetection/BuildConfig.java
+ ie.ncirl.student.x15015556.drdetection.BuildConfig
