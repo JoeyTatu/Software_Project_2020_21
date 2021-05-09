@@ -14,6 +14,7 @@ import android.media.ExifInterface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
@@ -37,11 +38,15 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import java.io.ByteArrayOutputStream;
+import java.io.FileDescriptor;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Random;
 
 public class ImageActivity extends AppCompatActivity implements View.OnClickListener, GoogleApiClient.OnConnectionFailedListener {
 
@@ -54,14 +59,14 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
     ContentValues values;
     Uri uriImage; // UR*I*
     Bitmap image;
-    String imageUrl; //UR*L*
+//    String imageUrl; //UR*L*
 
 
 
     Button btnSignOut, btnRevokeAccess, btnCameraPhoto, btnGallerySelect, btnResults;
     String patientID, googleID, googleName;
     TextView tvPatientID, tvGoogleID, tvGoogleName, tvSelectedImage;
-    Intent mainActivity, patientActivity;
+    Intent mainActivity, patientActivity, resultsActivity;
     ImageView ivImage;
     GoogleApiClient mGoogleApiClient;
 
@@ -83,7 +88,6 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
             }
         } else {
             getWindow().setFlags(
-
                     WindowManager.LayoutParams.FLAG_FULLSCREEN,
                     WindowManager.LayoutParams.FLAG_FULLSCREEN
             );
@@ -102,8 +106,18 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
 
         mainActivity = new Intent(ImageActivity.this, SignInActivity.class);
         patientActivity = new Intent(ImageActivity.this, PatientActivity.class);
+        resultsActivity = new Intent(ImageActivity.this, ResultsActivity.class);
+
         btnSignOut = findViewById(R.id.btnSignOut);
         btnRevokeAccess = findViewById(R.id.btnRevokeAccess);
+
+        //Getting image
+        ivImage = findViewById(R.id.ivImage);
+        tvSelectedImage = findViewById(R.id.tvSelectedImage);
+        btnResults = findViewById(R.id.btnResults);
+        btnCameraPhoto = findViewById(R.id.btnCameraPhoto);
+        btnGallerySelect = findViewById(R.id.btnGalerySelect);
+
 
         // Buttons
         btnSignOut = findViewById(R.id.btnSignOut);
@@ -123,10 +137,6 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
                 startActivity(mainActivity);
             }
         });
-
-        btnCameraPhoto = findViewById(R.id.btnCameraPhoto);
-        btnGallerySelect = findViewById(R.id.btnGalerySelect);
-        btnResults = findViewById(R.id.btnResults);
 
         //Declaring patientID textview, and getting relevant values from storage, if present.
         tvPatientID = findViewById(R.id.tvPatientID);
@@ -160,10 +170,7 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
         btnResults.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent resultsActivity = (new Intent(ImageActivity.this, ResultsActivity.class));
-//                Log.d("Passing URI", "Is null: " + (imageUri == null));
-//                resultsActivity.putExtra("image", uriImage);
-//                startActivity(resultsActivity);
+                startActivity(resultsActivity);
             }
         });
 
@@ -203,19 +210,22 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Log.d("ResultCode", "resultCode: " + resultCode + ". Request Code: " + requestCode + ". Data: " + data.getData().toString());
-        if ((resultCode == RESULT_OK) && (requestCode == PICTURE_RESULT) ){
-                Uri selectedImageUri = data.getData();
+        Log.d("GotImage", "resultCode: " + resultCode + ". Request Code: " + requestCode + ". Data: " + data.getData().toString());
+        Uri selectedImageUri = data.getData();
+
+        String uriImage = selectedImageUri.toString();
+        setExtras(uriImage);
+
+        if ( (resultCode == RESULT_OK) && (requestCode == PICTURE_RESULT) ){
+
+                Log.d("GotImage", "URUImage: " + uriImage + ". selectedImageUrl: " + selectedImageUri);
                 try {
                     if (Build.VERSION.SDK_INT < 28) {
                         image = MediaStore.Images.Media.getBitmap(this.getContentResolver(), selectedImageUri);
-
-
-                        /// use picasso
-                        
                         Log.d("GotImage", "ImageURI: " + selectedImageUri);
                         ivImage.setImageBitmap(image);
                         btnResults.setVisibility(View.VISIBLE);
+                        /// use picasso
                         tvSelectedImage.setVisibility(View.INVISIBLE);
                         Toast.makeText(this, "Got image", Toast.LENGTH_LONG).show();
 
@@ -230,14 +240,45 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
                     }
                 } catch (FileNotFoundException e) {
                     Toast.makeText(this, "File not found", Toast.LENGTH_LONG).show();
+                    Log.d("GotImage", "File not found: " + e.getMessage());
                     e.printStackTrace();
                 } catch (IOException e) {
                     Toast.makeText(this, "An error occurred!", Toast.LENGTH_LONG).show();
+                    Log.d("GotImage", "Error: " + e.getMessage());
                     e.printStackTrace();
                 }
             } else {
-            if (uriImage != null) {
-                uriImage = Uri.parse(data.getData().toString());
+            if (selectedImageUri != null) {
+//                selectedImageUri = data.getData();
+                Log.d("GotImage", "URI was not null: " + selectedImageUri);
+                if (Build.VERSION.SDK_INT < 28) {
+                    try {
+                        image = MediaStore.Images.Media.getBitmap(this.getContentResolver(), selectedImageUri);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    Log.d("GotImage", "ImageURI: " + selectedImageUri);
+                        ivImage.setImageBitmap(image);
+                        btnResults.setVisibility(View.VISIBLE);
+                        tvSelectedImage.setVisibility(View.INVISIBLE);
+                        Toast.makeText(this, "Got image", Toast.LENGTH_LONG).show();
+
+                    } else {
+                        ImageDecoder.Source source = ImageDecoder.createSource(this.getContentResolver(),selectedImageUri);
+                    try {
+                        image = ImageDecoder.decodeBitmap(source);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    Log.d("GotImage", "ImageURI: " + selectedImageUri);
+                        ivImage.setImageBitmap(image);
+                        btnResults.setVisibility(View.VISIBLE);
+                        tvSelectedImage.setVisibility(View.INVISIBLE);
+                        Toast.makeText(this, "Got image", Toast.LENGTH_LONG).show();
+                    }
+            }
+            else{
+                Log.d("GotImage", "Line 245: URI is null");
             }
         }
     }
@@ -269,6 +310,15 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
             }
         }
     }
+
+//    private Bitmap getBitmapFromURI(Uri uri) throws IOException {
+//        ParcelFileDescriptor parcelFileDescriptor = this.getContentResolver().openFileDescriptor(uri, "r");
+//        FileDescriptor fileDescriptor = parcelFileDescriptor.getFileDescriptor();
+//        Bitmap image = BitmapFactory.decodeFileDescriptor(fileDescriptor);
+//        parcelFileDescriptor.close();
+//
+//        return image;
+//    }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
 //    @Override
@@ -471,5 +521,9 @@ public class ImageActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
         Log.d("Google", "Google Sign In failed");
+    }
+
+    public void setExtras(String uriImage){
+        resultsActivity.putExtra("uriImage", uriImage);
     }
 }

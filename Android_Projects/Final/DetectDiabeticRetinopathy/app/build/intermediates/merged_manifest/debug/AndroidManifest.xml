@@ -69,6 +69,7 @@
         <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.SignInActivity" />
         <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.PatientActivity" />
         <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity" />
+        <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity" />
 
         <!-- <provider -->
         <!-- android:name="androidx.core.content.FileProvider" -->
@@ -98,6 +99,11 @@
                 android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="ncirl.x15015556.detect_diabetic_reinopathy.com.squareup.picasso"
+            android:exported="false" />
 
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"

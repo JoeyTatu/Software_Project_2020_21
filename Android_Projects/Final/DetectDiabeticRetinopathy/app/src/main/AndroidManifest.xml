@@ -45,6 +45,7 @@
         <activity android:name=".SignInActivity"/>
         <activity android:name=".PatientActivity"/>
         <activity android:name=".ImageActivity"/>
+        <activity android:name=".ResultsActivity"/>
 
 <!--        <provider-->
 <!--            android:name="androidx.core.content.FileProvider"-->

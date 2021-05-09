@@ -1919,7 +1919,9 @@ id btnContinue
 id btnGalerySelect
 id btnResults
 id btnRevokeAccess
+id btnSendEmail
 id btnSignOut
+id btnSubmit
 id btn_facebook_login
 id btn_google_sign_in
 id button
@@ -2277,6 +2279,7 @@ id tvGoogleNameHeader
 id tvNote
 id tvPatientID
 id tvPatientIDHeading
+id tvResults
 id tvSelectedImage
 id txt_status
 id txt_title
@@ -2359,6 +2362,7 @@ layout activity_image
 layout activity_image_old
 layout activity_main
 layout activity_patient
+layout activity_results
 layout activity_sign_in
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -2620,8 +2624,10 @@ string patientID
 string revokeAccess
 string search_menu_title
 string selectImage
+string sendToDoctor
 string signOut
 string status_bar_notification_info_overflow
+string submit
 string takePhoto
 string welcome
 string yourGoogleID

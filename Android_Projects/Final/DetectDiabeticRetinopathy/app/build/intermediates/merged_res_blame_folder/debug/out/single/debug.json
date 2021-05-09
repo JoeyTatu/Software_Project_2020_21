@@ -80,6 +80,10 @@
         "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\drawable\\orange_btnl.xml"
     },
     {
+        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_results.xml.flat",
+        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_results.xml"
+    },
+    {
         "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_box.xml.flat",
         "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\drawable\\box.xml"
     },

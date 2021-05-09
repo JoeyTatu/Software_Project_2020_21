@@ -1918,7 +1918,9 @@ int id btnContinue 0x7f080063
 int id btnGalerySelect 0x7f080064
 int id btnResults 0x7f080065
 int id btnRevokeAccess 0x7f080066
+int id btnSendEmail 0x7f0801de
 int id btnSignOut 0x7f080067
+int id btnSubmit 0x7f0801df
 int id btn_facebook_login 0x7f080068
 int id btn_google_sign_in 0x7f080069
 int id button 0x7f08006a
@@ -2276,6 +2278,7 @@ int id tvGoogleNameHeader 0x7f0801c9
 int id tvNote 0x7f0801ca
 int id tvPatientID 0x7f0801cb
 int id tvPatientIDHeading 0x7f0801cc
+int id tvResults 0x7f0801e0
 int id tvSelectedImage 0x7f0801cd
 int id txt_status 0x7f0801ce
 int id txt_title 0x7f0801cf
@@ -2358,6 +2361,7 @@ int layout activity_image 0x7f0b001c
 int layout activity_image_old 0x7f0b001d
 int layout activity_main 0x7f0b001e
 int layout activity_patient 0x7f0b001f
+int layout activity_results 0x7f0b0089
 int layout activity_sign_in 0x7f0b0020
 int layout browser_actions_context_menu_page 0x7f0b0021
 int layout browser_actions_context_menu_row 0x7f0b0022
@@ -2619,8 +2623,10 @@ int string patientID 0x7f0e0095
 int string revokeAccess 0x7f0e0096
 int string search_menu_title 0x7f0e0097
 int string selectImage 0x7f0e0098
+int string sendToDoctor 0x7f0e009e
 int string signOut 0x7f0e0099
 int string status_bar_notification_info_overflow 0x7f0e009a
+int string submit 0x7f0e009f
 int string takePhoto 0x7f0e009b
 int string welcome 0x7f0e009c
 int string yourGoogleID 0x7f0e009d

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12
 MERGED from [androidx.databinding:viewbinding:4.2.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\465d783f90737306ac5dbdd240d104f2\jetified-viewbinding-4.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b4830525609e4b8bb972f1d8a37dc780\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\53429fbc83e528985386a3702907817d\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -15,6 +15,7 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\x15015556\.gradle\cach
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\51864eb6e0e884339107c8946a41836b\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\9bc35db89de5b085067c1324b8bfbbcf\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8072d171a022f7137a56d88430b42bf7\jetified-firebase-analytics-18.0.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\18fa3b1628cba042a719515cfd0bcd00\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fbca6c9bed7431fe368a8e5064c79ab0\jetified-play-services-auth-19.0.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\10247ff56cfefbfcb30180066fb4239e\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
 MERGED from [org.tensorflow:tensorflow-lite-task-vision:0.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b7b592b1b3731b7b2ac224ff84dadbea\jetified-tensorflow-lite-task-vision-0.1.0\AndroidManifest.xml:2:1-9:12
@@ -71,8 +72,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\x150
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d88be84dffbca90874262a60190a4c2c\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\50f1ca78fbc1677adba959cd11a28334\core-1.3.1\AndroidManifest.xml:17:1-26:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6f1baedf8793ca542dcc70ce4782818f\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\875b092885b7287026f6ad15296f163d\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d5b86639e8417a4990a8aae1cab5c740\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\875b092885b7287026f6ad15296f163d\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\4b3912fc93bd609a8bcd6b9553a912b6\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b8b9b24b8ca80aa20ad4d351a7bfff57\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\dafa807fc54ff8a4ef50a9346c4186cd\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
@@ -88,20 +89,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\x150155
 MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\9900d72331352538b40f6f52e89f00cb\jetified-tensorflow-lite-2.4.0\AndroidManifest.xml:2:1-12:12
 MERGED from [org.tensorflow:tensorflow-lite-task-base:0.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\340bd374e60343964ee9b1471550d9e8\jetified-tensorflow-lite-task-base-0.1.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\550fbd2ac5744f421bc2499793c7e450\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:3:5-57
 		INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12
 		INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:11-69
@@ -132,7 +133,7 @@ ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy
 	android:name
 		ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:9:22-62
 application
-ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:12:5-58:19
+ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:12:5-59:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b4830525609e4b8bb972f1d8a37dc780\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b4830525609e4b8bb972f1d8a37dc780\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\53429fbc83e528985386a3702907817d\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -149,6 +150,8 @@ MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\
 MERGED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\51864eb6e0e884339107c8946a41836b\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:8:5-16:19
 MERGED from [com.google.firebase:firebase-analytics:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8072d171a022f7137a56d88430b42bf7\jetified-firebase-analytics-18.0.3\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8072d171a022f7137a56d88430b42bf7\jetified-firebase-analytics-18.0.3\AndroidManifest.xml:7:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\18fa3b1628cba042a719515cfd0bcd00\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\18fa3b1628cba042a719515cfd0bcd00\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fbca6c9bed7431fe368a8e5064c79ab0\jetified-play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fbca6c9bed7431fe368a8e5064c79ab0\jetified-play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\10247ff56cfefbfcb30180066fb4239e\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
@@ -295,6 +298,10 @@ activity#ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity
 ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:47:9-50
 	android:name
 		ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:47:19-48
+activity#ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity
+ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:48:9-52
+	android:name
+		ADDED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:48:19-50
 uses-sdk
 INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml
@@ -321,6 +328,8 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\x15015556\.gradle\caches
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\9bc35db89de5b085067c1324b8bfbbcf\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8072d171a022f7137a56d88430b42bf7\jetified-firebase-analytics-18.0.3\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8072d171a022f7137a56d88430b42bf7\jetified-firebase-analytics-18.0.3\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\18fa3b1628cba042a719515cfd0bcd00\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\18fa3b1628cba042a719515cfd0bcd00\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fbca6c9bed7431fe368a8e5064c79ab0\jetified-play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fbca6c9bed7431fe368a8e5064c79ab0\jetified-play-services-auth-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\10247ff56cfefbfcb30180066fb4239e\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
@@ -431,10 +440,10 @@ MERGED from [androidx.core:core:1.3.1] C:\Users\x15015556\.gradle\caches\transfo
 MERGED from [androidx.core:core:1.3.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\50f1ca78fbc1677adba959cd11a28334\core-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6f1baedf8793ca542dcc70ce4782818f\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6f1baedf8793ca542dcc70ce4782818f\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\875b092885b7287026f6ad15296f163d\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\875b092885b7287026f6ad15296f163d\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d5b86639e8417a4990a8aae1cab5c740\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d5b86639e8417a4990a8aae1cab5c740\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\875b092885b7287026f6ad15296f163d\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\875b092885b7287026f6ad15296f163d\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\4b3912fc93bd609a8bcd6b9553a912b6\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\4b3912fc93bd609a8bcd6b9553a912b6\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b8b9b24b8ca80aa20ad4d351a7bfff57\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
@@ -507,6 +516,14 @@ ADDED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\x
 		ADDED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\51864eb6e0e884339107c8946a41836b\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:14:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-ml-model-interpreter:22.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\51864eb6e0e884339107c8946a41836b\jetified-firebase-ml-model-interpreter-22.0.4\AndroidManifest.xml:13:17-113
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\18fa3b1628cba042a719515cfd0bcd00\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\18fa3b1628cba042a719515cfd0bcd00\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\18fa3b1628cba042a719515cfd0bcd00\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\18fa3b1628cba042a719515cfd0bcd00\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fbca6c9bed7431fe368a8e5064c79ab0\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -528,7 +545,7 @@ ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fbca6c9bed7431fe368a8e5064c79ab0\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-60:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:2:1-61:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 meta-data#com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar
 ADDED from [com.google.firebase:firebase-ml-common:22.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d51e0c41464fe5030c34c59334f1a395\jetified-firebase-ml-common-22.1.2\AndroidManifest.xml:11:13-13:85
 	android:value

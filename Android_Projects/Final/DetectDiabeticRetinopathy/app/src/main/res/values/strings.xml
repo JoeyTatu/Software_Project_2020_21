@@ -17,4 +17,6 @@
     <string name="selectImage">Please select an image to continue</string>
     <string name="chooseImage">CHOOSE IMAGE</string>
     <string name="takePhoto">TAKE PHOTO</string>
+    <string name="submit">Submit to file</string>
+    <string name="sendToDoctor">Send to doctor</string>
 </resources>

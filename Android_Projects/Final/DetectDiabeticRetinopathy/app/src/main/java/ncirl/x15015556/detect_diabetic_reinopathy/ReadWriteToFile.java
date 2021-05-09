@@ -1,7 +1,12 @@
 package ncirl.x15015556.detect_diabetic_reinopathy;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.net.Uri;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -47,6 +52,21 @@ public class ReadWriteToFile {
             Log.e("Exception", "File write failed: " + e.toString());
         }
     }
+
+//    public static void writeToFileBitmap(Bitmap bitmap, Context context, int number) {
+//        try {
+//            String path = Environment.getExternalStorageDirectory().toString();
+//            File file = new File(path, "DiabRet"+number+".png");
+//            FileOutputStream out = new FileOutputStream(file);
+//            bitmap.compress(Bitmap.CompressFormat.PNG, 100, out);
+//            out.flush();
+//            out.close();
+//
+//        } catch (IOException e) {
+//            Log.e("Exception", "File write failed: " + e.toString());
+//            e.printStackTrace();
+//        }
+//    }
 
 //    public static void writeArray(String filename, String[] data, Context context){
 //        try {
@@ -176,4 +196,22 @@ public class ReadWriteToFile {
         }
         return patientID;
     }
+
+//    public static Bitmap readFromFileBitmap(Context context, int number) {
+//        Bitmap image = null;
+//        Uri uriImage = Uri.parse("DiabRet"+ number +".png");
+//
+//        try {
+//            image = MediaStore.Images.Media.getBitmap(context.getContentResolver(), uriImage);
+//            if (image != null) {
+//                return image;
+//            }
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//
+//        }
+//
+//        return image;
+//    }
 }
