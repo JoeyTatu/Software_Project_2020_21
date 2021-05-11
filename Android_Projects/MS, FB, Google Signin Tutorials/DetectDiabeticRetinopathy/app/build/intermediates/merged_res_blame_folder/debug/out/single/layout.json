@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_results.xml",
+        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_results.xml"
+    },
+    {
+        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_patient.xml",
+        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_patient.xml"
+    },
+    {
+        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_image_old.xml",
+        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_image_old.xml"
+    },
+    {
+        "merged": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_image.xml",
+        "source": "C:\\Users\\x15015556\\Desktop\\Android_Projects\\DetectDiabeticRetinopathy\\app\\src\\main\\res\\layout\\activity_image.xml"
+    }
+]

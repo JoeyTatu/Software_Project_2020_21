@@ -1,0 +1,4 @@
+ncirl/x15015556/gfiredatabase/MainActivity.java
+ ncirl.x15015556.gfiredatabase.MainActivity
+ncirl/x15015556/gfiredatabase/BuildConfig.java
+ ncirl.x15015556.gfiredatabase.BuildConfig

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Detect Diabetic Retinopathy</string>
+    <string name="facebook_app_id">927107168075416</string>
+    <string name="fb_login_protocol_scheme">fb927107168075416</string>
+
+    <string name="welcome">Signed in as</string>
+    <string name="signOut">Sign out</string>
+    <string name="revokeAccess">Revoke access</string>
+    <string name="patientID">Patient ID:</string>
+    <string name="etPatientID">Insert patient ID</string>
+    <string name="cont">Continue</string>
+    <string name="clear">Clear</string>
+    <string name="patientError">Error: Patient ID must be between 4 and 8 numbers.</string>
+    <string name="yourGoogleID">Your Google ID:</string>
+    <string name="note">(The previously used patient number has been added above)</string>
+    <string name="main">How did you get here? You\'re not meant to see this. D\'oh! Please press Back up to exit</string>
+    <string name="selectImage">Please select an image to continue</string>
+    <string name="chooseImage">CHOOSE IMAGE</string>
+    <string name="takePhoto">TAKE PHOTO</string>
+    <string name="submit">Submit to file</string>
+    <string name="sendToDoctor">Email to doctor</string>
+    <string name="loading">Loading...</string>
+</resources>

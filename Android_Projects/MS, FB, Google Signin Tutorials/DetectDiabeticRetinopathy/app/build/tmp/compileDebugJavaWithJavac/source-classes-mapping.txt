@@ -1,0 +1,46 @@
+ncirl/x15015556/detect_diabetic_reinopathy/databinding/ActivityResultsBinding.java
+ ncirl.x15015556.detect_diabetic_reinopathy.databinding.ActivityResultsBinding
+ncirl/x15015556/detect_diabetic_reinopathy/PatientActivity.java
+ ncirl.x15015556.detect_diabetic_reinopathy.PatientActivity
+ ncirl.x15015556.detect_diabetic_reinopathy.PatientActivity$1
+ ncirl.x15015556.detect_diabetic_reinopathy.PatientActivity$2
+ ncirl.x15015556.detect_diabetic_reinopathy.PatientActivity$3
+ ncirl.x15015556.detect_diabetic_reinopathy.PatientActivity$4
+ncirl/x15015556/detect_diabetic_reinopathy/Global.java
+ ncirl.x15015556.detect_diabetic_reinopathy.Global
+ncirl/x15015556/detect_diabetic_reinopathy/BuildConfig.java
+ ncirl.x15015556.detect_diabetic_reinopathy.BuildConfig
+ncirl/x15015556/detect_diabetic_reinopathy/SignInActivity.java
+ ncirl.x15015556.detect_diabetic_reinopathy.SignInActivity
+ncirl/x15015556/detect_diabetic_reinopathy/ReadWriteToFile.java
+ ncirl.x15015556.detect_diabetic_reinopathy.ReadWriteToFile
+ncirl/x15015556/detect_diabetic_reinopathy/databinding/ActivityImageOldBinding.java
+ ncirl.x15015556.detect_diabetic_reinopathy.databinding.ActivityImageOldBinding
+ncirl/x15015556/detect_diabetic_reinopathy/databinding/ActivityPatientBinding.java
+ ncirl.x15015556.detect_diabetic_reinopathy.databinding.ActivityPatientBinding
+ncirl/x15015556/detect_diabetic_reinopathy/MainActivity.java
+ ncirl.x15015556.detect_diabetic_reinopathy.MainActivity
+ncirl/x15015556/detect_diabetic_reinopathy/databinding/ActivityImageBinding.java
+ ncirl.x15015556.detect_diabetic_reinopathy.databinding.ActivityImageBinding
+ncirl/x15015556/detect_diabetic_reinopathy/databinding/ActivityMainBinding.java
+ ncirl.x15015556.detect_diabetic_reinopathy.databinding.ActivityMainBinding
+ncirl/x15015556/detect_diabetic_reinopathy/databinding/ActivitySignInBinding.java
+ ncirl.x15015556.detect_diabetic_reinopathy.databinding.ActivitySignInBinding
+ncirl/x15015556/detect_diabetic_reinopathy/ResultsActivity.java
+ ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity
+ ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity$1
+ ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity$2
+ ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity$3
+ ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity$4
+ ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity$5
+ ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity$6
+ ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity$7
+ncirl/x15015556/detect_diabetic_reinopathy/ImageActivity.java
+ ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity
+ ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity$1
+ ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity$2
+ ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity$3
+ ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity$4
+ ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity$5
+ ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity$6
+ ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity$7

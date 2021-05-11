@@ -1,0 +1,7 @@
+The relevant API provider does not allow restricted
+words such as their business name when creating an API on their site. 
+
+GFireDataBase = Google Realtime Firebase Database
+SignInExampleG = Google Sign In Example
+MSLoginEample = Microsoft Login
+SocialSiteLogin = Facebook Login
