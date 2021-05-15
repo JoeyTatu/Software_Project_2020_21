@@ -1,5 +1,0 @@
-Stage_I
-Stage_II
-Stage_III
-Stage_IV
-Stage_V

@@ -37,5 +37,3 @@ Being vegan, one asks themselves: “Can I eat this?” After trying a few vegan
 
 The idea behind identifying the sclera was founded due to a family member of the author having issues with their gut. This caused the person’s sclera to become a tint of yellow and their skin to become sallow. The author thought that a health app with scanning the sclera would be a beneficial idea.
 As the project idea progressed, the innovation for the Project was lacking. Creating a general health and fitness app has been done many times previously. It was decided to change the project slightly and to focus on detecting retinopathy in a patient’s eyes using artificial intelligence and image processing. 
-
-(Last updated November 2020)
