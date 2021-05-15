@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">620200832689-q71uok1kukqm8nrsbhkqe9nmm47p4efa.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">620200832689</string>
+    <string name="google_api_key" translatable="false">AIzaSyAA82ILlRUfnXKcauht4UiCWy_rLjc-fyM</string>
+    <string name="google_app_id" translatable="false">1:620200832689:android:36886e3613128a13aa3c90</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAA82ILlRUfnXKcauht4UiCWy_rLjc-fyM</string>
+    <string name="google_storage_bucket" translatable="false">diabretdetection.appspot.com</string>
+    <string name="project_id" translatable="false">diabretdetection</string>
+</resources>

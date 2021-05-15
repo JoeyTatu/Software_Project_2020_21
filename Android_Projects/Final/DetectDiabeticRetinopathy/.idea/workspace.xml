@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c8632e2-c145-4125-94ef-eb1a19bf5242" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\x15015556\.android\avd\Pixel_2_API_29.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rTdcwuhGEODAAOI7xWjPUy9zat" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="127.0.0.1:62001" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-23T12:11:04.940Z" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="DRAWABLE" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/x15015556/Desktop/Android_Projects/DetectDiabeticRetinopathy/app/src/main/java/ncirl/x15015556/detect_diabetic_reinopathy/customview/AutoFitTextureView.java_SELECTED" value="AutoFitTextureView" />
+    <property name="android-custom-viewC:/Users/x15015556/Desktop/Android_Projects/DetectDiabeticRetinopathy/app/src/main/java/ncirl/x15015556/detect_diabetic_reinopathy/customview/OverlayView.java_SELECTED" value="OverlayView" />
+    <property name="android-custom-viewC:/Users/x15015556/Desktop/Android_Projects/DetectDiabeticRetinopathy/app/src/main/java/ncirl/x15015556/detect_diabetic_reinopathy/customview/RecognitionScoreView.java_SELECTED" value="RecognitionScoreView" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DRDetection" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ncirl.x15015556.detect_diabetic_reinopathy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\res\values" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\java\ncirl\x15015556\detect_diabetic_reinopathy\MainActivityOldVersions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Detect_Diabetic_Retinopathy.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c8632e2-c145-4125-94ef-eb1a19bf5242" name="Default Changelist" comment="" />
+      <created>1619004096522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619004096522</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="146" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1620658251651">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="146" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1620658251651" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1620217856640">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1620217856640" />
+    <state x="105" y="233" width="476" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1619100272537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="105" y="233" width="476" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1619100272537" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620468623719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1620468623719" />
+    <state x="0" y="122" key="AndroidCreateResourceDirectoryDialog" timestamp="1620563393774">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="122" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1620563393774" />
+    <state x="491" y="114" key="AndroidCreateResourceFileDialog" timestamp="1620561582257">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="114" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1620561582257" />
+    <state x="268" y="114" key="AndroidProcessChooserDialog" timestamp="1620488668667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="268" y="114" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1620488668667" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1620647130107">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620647130107" />
+    <state width="1177" height="225" key="GridCell.Tab.0.bottom" timestamp="1620742568634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1177" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620742568634" />
+    <state width="1177" height="225" key="GridCell.Tab.0.center" timestamp="1620742568634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1177" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620742568634" />
+    <state width="1177" height="225" key="GridCell.Tab.0.left" timestamp="1620742568633">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1177" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620742568633" />
+    <state width="1177" height="225" key="GridCell.Tab.0.right" timestamp="1620742568634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1177" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620742568634" />
+    <state width="800" height="177" key="GridCell.Tab.1.bottom" timestamp="1620491700358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="800" height="177" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620491700358" />
+    <state width="800" height="177" key="GridCell.Tab.1.center" timestamp="1620491700358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="800" height="177" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1620491700358" />
+    <state width="800" height="177" key="GridCell.Tab.1.left" timestamp="1620491700358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="800" height="177" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1620491700358" />
+    <state width="800" height="177" key="GridCell.Tab.1.right" timestamp="1620491700358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="800" height="177" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1620491700358" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1620218919068">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1620218919068" />
+    <state x="499" y="142" key="chooseDestDirectoryDialog" timestamp="1620655213426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="142" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1620655213426" />
+    <state x="71" y="118" key="extract.method.dialog" timestamp="1620394047242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="71" y="118" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1620394047242" />
+    <state x="130" y="100" width="585" height="534" key="find.popup" timestamp="1619181015964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="130" y="100" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1619181015964" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1619180509612">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1619180509612" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ncirl/x15015556/detect_diabetic_reinopathy/MainActivityOldVersions/MainActivity_OldVersion1.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

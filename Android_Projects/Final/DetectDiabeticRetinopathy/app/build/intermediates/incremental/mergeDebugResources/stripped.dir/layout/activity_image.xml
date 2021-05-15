@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clHeader"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/btnSignOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="#F44336"
+            android:hapticFeedbackEnabled="true"
+            android:text="@string/signOut"
+            app:layout_constraintEnd_toStartOf="@+id/btnRevokeAccess"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnRevokeAccess"
+            android:layout_width="67dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#5EF44336"
+            android:hapticFeedbackEnabled="true"
+            android:text="@string/revokeAccess"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvGoogleID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/tvGoogleIDHeading"
+            app:layout_constraintTop_toBottomOf="@+id/tvGoogleName" />
+
+        <TextView
+            android:id="@+id/tvGoogleName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/tvGoogleNameHeader"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvGoogleNameHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/welcome"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvGoogleIDHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/yourGoogleID"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="@+id/tvGoogleNameHeader"
+            app:layout_constraintTop_toBottomOf="@+id/tvGoogleNameHeader" />
+
+        <TextView
+            android:id="@+id/patientIDHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FFEB3B"
+            android:gravity="center_vertical"
+            android:text="@string/patientID"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/tvGoogleIDHeading"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tvGoogleIDHeading"
+            app:layout_constraintTop_toBottomOf="@+id/tvGoogleIDHeading" />
+
+        <TextView
+            android:id="@+id/tvPatientID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFEB3B"
+            android:gravity="center_horizontal|left"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/tvGoogleID"
+            app:layout_constraintTop_toBottomOf="@+id/tvGoogleID" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_toEndOf="@+id/clHeader"
+        app:layout_constraintTop_toBottomOf="@+id/clHeader" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="53dp"
+        android:foregroundGravity="center|center_horizontal" />
+
+    <TextView
+        android:id="@+id/tvSelectedImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginRight="30sp"
+        android:text="@string/selectImage"
+        android:textAlignment="center"
+        android:textColor="#1B1A1A"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:backgroundTint="#FF5722"
+        android:text="Get Results"
+        android:textColor="#000000"
+        android:visibility="invisible" />
+
+<!--    <Button-->
+<!--        android:id="@+id/tvResults"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/ivImage"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="50sp"-->
+<!--        android:background="@drawable/orange_btn"-->
+<!--        android:paddingLeft="30sp"-->
+<!--        android:paddingRight="30sp"-->
+<!--        android:text="Get Results"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#fff"-->
+<!--        android:textSize="22sp"-->
+<!--        android:visibility="invisible" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_above="@id/ll"
+        android:background="#FF993E" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFE5B2"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnCameraPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:backgroundTint="#009688"
+            android:foregroundGravity="center_vertical|center"
+            android:text="@string/takePhoto"
+            android:textColor="#000000" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+        <Button
+            android:id="@+id/btnGalerySelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="3"
+            android:backgroundTint="#8BC34A"
+            android:text="@string/chooseImage"
+            android:textColor="#000000" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+    </LinearLayout>
+
+</RelativeLayout>

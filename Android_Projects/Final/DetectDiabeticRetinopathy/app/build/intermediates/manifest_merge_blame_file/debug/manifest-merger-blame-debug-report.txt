@@ -1,0 +1,423 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ncirl.x15015556.detect_diabetic_reinopathy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:6:22-77
+13    <!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/> -->
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:9:5-64
+15-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+17    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-database:19.7.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b5f9200fca633db77b4d7bc737d6a7a\jetified-firebase-database-19.7.0\AndroidManifest.xml:25:5-79
+18-->[com.google.firebase:firebase-database:19.7.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b5f9200fca633db77b4d7bc737d6a7a\jetified-firebase-database-19.7.0\AndroidManifest.xml:25:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\39f5f07c27fb91f3d7f2c8aa714ab354\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:24:5-68
+19-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\39f5f07c27fb91f3d7f2c8aa714ab354\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:26:22-107
+21
+22    <application
+22-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:12:5-59:19
+23        android:allowBackup="true"
+23-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:13:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\45782c3fc163cb6349733af63eeb6336\core-1.3.1\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:14:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:15:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:16:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:17:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.DetectDiabeticRetinopathy" >
+32-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:18:9-63
+33        <meta-data
+33-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:20:9-21:54
+34            android:name="com.facebook.sdk.ApplicationId"
+34-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:20:20-65
+35            android:value="@string/facebook_app_id" />
+35-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:21:13-52
+36
+37        <activity
+37-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:23:9-26:48
+38            android:name="com.facebook.FacebookActivity"
+38-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:23:19-63
+39            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+39-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:24:13-114
+40            android:label="@string/app_name"
+40-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:26:13-45
+41            android:theme="@style/com_facebook_activity_theme" />
+41-->[com.facebook.android:facebook-common:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\146de9768d7be8bb21a9a1407f18f0d8\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+42        <activity
+42-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:27:9-36:20
+43            android:name="com.facebook.CustomTabActivity"
+43-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:28:13-58
+44            android:exported="true" >
+44-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:29:13-36
+45            <intent-filter>
+45-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:30:13-35:29
+46                <action android:name="android.intent.action.VIEW" />
+46-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:31:17-69
+46-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:31:25-66
+47
+48                <category android:name="android.intent.category.DEFAULT" />
+48-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:17-76
+48-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:27-73
+49                <category android:name="android.intent.category.BROWSABLE" />
+49-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:33:17-78
+49-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:33:27-75
+50
+51                <data android:scheme="@string/fb_login_protocol_scheme" />
+51-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:34:17-75
+51-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:34:23-72
+52            </intent-filter>
+53            <intent-filter>
+53-->[com.facebook.android:facebook-common:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\146de9768d7be8bb21a9a1407f18f0d8\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+54                <action android:name="android.intent.action.VIEW" />
+54-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:31:17-69
+54-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:31:25-66
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:17-76
+56-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:27-73
+57                <category android:name="android.intent.category.BROWSABLE" />
+57-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:33:17-78
+57-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:33:27-75
+58
+59                <data
+59-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:34:17-75
+60                    android:host="cct.ncirl.x15015556.detect_diabetic_reinopathy"
+61                    android:scheme="fbconnect" />
+61-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:34:23-72
+62            </intent-filter>
+63        </activity>
+64        <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.MainActivity" >
+64-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:38:9-44:20
+64-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:38:19-47
+65            <intent-filter>
+65-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:39:13-43:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:40:17-69
+66-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:40:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:42:17-77
+68-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:42:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.SignInActivity" />
+71-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:45:9-51
+71-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:45:19-49
+72        <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.PatientActivity" />
+72-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:46:9-52
+72-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:46:19-50
+73        <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.ImageActivity" />
+73-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:47:9-50
+73-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:47:19-48
+74        <activity android:name="ncirl.x15015556.detect_diabetic_reinopathy.ResultsActivity" />
+74-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:48:9-52
+74-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:48:19-50
+75
+76        <!-- <provider -->
+77        <!-- android:name="androidx.core.content.FileProvider" -->
+78        <!-- android:authorities="com.example.android.fileprovider" -->
+79        <!-- android:exported="false" -->
+80        <!-- android:grantUriPermissions="true"> -->
+81        <!-- <meta-data -->
+82        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+83        <!-- android:resource="@xml/file_paths"></meta-data> -->
+84        <!-- </provider> -->
+85        <activity android:name="com.facebook.CustomTabMainActivity" />
+85-->[com.facebook.android:facebook-common:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\146de9768d7be8bb21a9a1407f18f0d8\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+85-->[com.facebook.android:facebook-common:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\146de9768d7be8bb21a9a1407f18f0d8\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+86
+87        <provider
+87-->[com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fcdd5c79fe4751fb8b0948d674f26c35\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+88            android:name="com.squareup.picasso.PicassoProvider"
+88-->[com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fcdd5c79fe4751fb8b0948d674f26c35\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+89            android:authorities="ncirl.x15015556.detect_diabetic_reinopathy.com.squareup.picasso"
+89-->[com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fcdd5c79fe4751fb8b0948d674f26c35\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+90            android:exported="false" />
+90-->[com.squareup.picasso:picasso:2.71828] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\fcdd5c79fe4751fb8b0948d674f26c35\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+91
+92        <activity
+92-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+93            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+93-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+94            android:excludeFromRecents="true"
+94-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+95            android:exported="false"
+95-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+97        <!--
+98            Service handling Google Sign-In user revocation. For apps that do not integrate with
+99            Google Sign-In, this service will never be started.
+100        -->
+101        <service
+101-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+102            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+102-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+103            android:exported="true"
+103-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+104            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+104-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+105            android:visibleToInstantApps="true" />
+105-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c2d44be9275a0ca7ce56504bf194ab0f\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+106        <service
+106-->[com.google.firebase:firebase-database:19.7.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b5f9200fca633db77b4d7bc737d6a7a\jetified-firebase-database-19.7.0\AndroidManifest.xml:29:9-35:19
+107            android:name="com.google.firebase.components.ComponentDiscoveryService"
+107-->[com.google.firebase:firebase-database:19.7.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b5f9200fca633db77b4d7bc737d6a7a\jetified-firebase-database-19.7.0\AndroidManifest.xml:30:13-84
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-database:19.7.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b5f9200fca633db77b4d7bc737d6a7a\jetified-firebase-database-19.7.0\AndroidManifest.xml:31:13-37
+110            <meta-data
+110-->[com.google.firebase:firebase-database:19.7.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b5f9200fca633db77b4d7bc737d6a7a\jetified-firebase-database-19.7.0\AndroidManifest.xml:32:13-34:85
+111                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+111-->[com.google.firebase:firebase-database:19.7.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b5f9200fca633db77b4d7bc737d6a7a\jetified-firebase-database-19.7.0\AndroidManifest.xml:33:17-109
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-database:19.7.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b5f9200fca633db77b4d7bc737d6a7a\jetified-firebase-database-19.7.0\AndroidManifest.xml:34:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b220be556bca793050b406f2bfbba0a\jetified-firebase-storage-19.2.2\AndroidManifest.xml:33:13-35:85
+114                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+114-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b220be556bca793050b406f2bfbba0a\jetified-firebase-storage-19.2.2\AndroidManifest.xml:34:17-107
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\8b220be556bca793050b406f2bfbba0a\jetified-firebase-storage-19.2.2\AndroidManifest.xml:35:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:77:13-79:85
+117                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+117-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:78:17-109
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:79:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\a52fc2cba9be708afc9ffb60b367fd43\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:20:13-22:85
+120                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+120-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\a52fc2cba9be708afc9ffb60b367fd43\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:21:17-111
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\a52fc2cba9be708afc9ffb60b367fd43\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:22:17-82
+122            <meta-data
+122-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\39f5f07c27fb91f3d7f2c8aa714ab354\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:30:13-32:85
+123                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+123-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\39f5f07c27fb91f3d7f2c8aa714ab354\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:31:17-139
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\39f5f07c27fb91f3d7f2c8aa714ab354\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:32:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\77a2dc702c3ab39ff9dd33aee12c62c3\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+126                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+126-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\77a2dc702c3ab39ff9dd33aee12c62c3\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\77a2dc702c3ab39ff9dd33aee12c62c3\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+128            <!--
+129                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+130                clients to use it as well, by defining this registrar in their own core/common library.
+131            -->
+132            <meta-data
+132-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+133                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+133-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+135        </service>
+136
+137        <activity
+137-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:27:9-44:20
+138            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+138-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:28:13-80
+139            android:excludeFromRecents="true"
+139-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:29:13-46
+140            android:exported="true"
+140-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:30:13-36
+141            android:launchMode="singleTask"
+141-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:31:13-44
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+142-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:32:13-72
+143            <intent-filter>
+143-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:33:13-43:29
+144                <action android:name="android.intent.action.VIEW" />
+144-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:31:17-69
+144-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:31:25-66
+145
+146                <category android:name="android.intent.category.DEFAULT" />
+146-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:17-76
+146-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:27-73
+147                <category android:name="android.intent.category.BROWSABLE" />
+147-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:33:17-78
+147-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:33:27-75
+148
+149                <data
+149-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:34:17-75
+150                    android:host="firebase.auth"
+151                    android:path="/"
+152                    android:scheme="genericidp" />
+152-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:34:23-72
+153            </intent-filter>
+154        </activity>
+155        <activity
+155-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:45:9-62:20
+156            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+156-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:46:13-79
+157            android:excludeFromRecents="true"
+157-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:47:13-46
+158            android:exported="true"
+158-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:48:13-36
+159            android:launchMode="singleTask"
+159-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:49:13-44
+160            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+160-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:50:13-72
+161            <intent-filter>
+161-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:51:13-61:29
+162                <action android:name="android.intent.action.VIEW" />
+162-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:31:17-69
+162-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:31:25-66
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:17-76
+164-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:27-73
+165                <category android:name="android.intent.category.BROWSABLE" />
+165-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:33:17-78
+165-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:33:27-75
+166
+167                <data
+167-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:34:17-75
+168                    android:host="firebase.auth"
+169                    android:path="/"
+170                    android:scheme="recaptcha" />
+170-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:34:23-72
+171            </intent-filter>
+172        </activity>
+173
+174        <service
+174-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:64:9-73:19
+175            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+175-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:65:13-101
+176            android:enabled="true"
+176-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:66:13-35
+177            android:exported="false" >
+177-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:67:13-37
+178            <intent-filter>
+178-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:68:13-72:29
+179                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+179-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:17-89
+179-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\c7428e05b0a814d50b15a28e09930895\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:25-86
+180
+181                <category android:name="android.intent.category.DEFAULT" />
+181-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:17-76
+181-->C:\Users\x15015556\Desktop\Android_Projects\DetectDiabeticRetinopathy\app\src\main\AndroidManifest.xml:32:27-73
+182            </intent-filter>
+183        </service>
+184
+185        <provider
+185-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+186            android:name="com.google.firebase.provider.FirebaseInitProvider"
+186-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+187            android:authorities="ncirl.x15015556.detect_diabetic_reinopathy.firebaseinitprovider"
+187-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+188            android:directBootAware="true"
+188-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+190            android:initOrder="100" />
+190-->[com.google.firebase:firebase-common:19.5.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\84f0fe0c319654310ec077e40c9758c7\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+191
+192        <activity
+192-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\1f4fbf5a6017e580cae8f805e3f74358\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+193            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+193-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\1f4fbf5a6017e580cae8f805e3f74358\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\1f4fbf5a6017e580cae8f805e3f74358\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+195-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\1f4fbf5a6017e580cae8f805e3f74358\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+196
+197        <receiver
+197-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:29:9-33:20
+198            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+198-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:30:13-85
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:31:13-35
+200            android:exported="false" >
+200-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:32:13-37
+201        </receiver>
+202
+203        <service
+203-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:35:9-38:40
+204            android:name="com.google.android.gms.measurement.AppMeasurementService"
+204-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:36:13-84
+205            android:enabled="true"
+205-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:37:13-35
+206            android:exported="false" />
+206-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:38:13-37
+207        <service
+207-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:39:9-43:72
+208            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+208-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:40:13-87
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:41:13-35
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:42:13-37
+211            android:permission="android.permission.BIND_JOB_SERVICE" />
+211-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\6a38f93c99f5398d19c79d6f608eebd8\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:43:13-69
+212
+213        <meta-data
+213-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b422d45bd4bbd8dd38f6123b11cdb391\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+214            android:name="com.google.android.gms.version"
+214-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b422d45bd4bbd8dd38f6123b11cdb391\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+215            android:value="@integer/google_play_services_version" />
+215-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\b422d45bd4bbd8dd38f6123b11cdb391\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+216        <!--
+217         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+218         with the application context. This config is merged in with the host app's manifest,
+219         but there can only be one provider with the same authority activated at any given
+220         point; so if the end user has two or more different apps that use Facebook SDK, only the
+221         first one will be able to use the provider. To work around this problem, we use the
+222         following placeholder in the authority to identify each host application as if it was
+223         a completely different provider.
+224        -->
+225        <provider
+225-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+226            android:name="com.facebook.internal.FacebookInitProvider"
+226-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+227            android:authorities="ncirl.x15015556.detect_diabetic_reinopathy.FacebookInitProvider"
+227-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+228            android:exported="false" />
+228-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+229
+230        <receiver
+230-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+231            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+231-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+232            android:exported="false" >
+232-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+233            <intent-filter>
+233-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+234                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+234-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+234-->[com.facebook.android:facebook-core:5.15.3] C:\Users\x15015556\.gradle\caches\transforms-2\files-2.1\d9bf7be5897423bf06811da81de94ee7\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+235            </intent-filter>
+236        </receiver>
+237    </application>
+238
+239</manifest>

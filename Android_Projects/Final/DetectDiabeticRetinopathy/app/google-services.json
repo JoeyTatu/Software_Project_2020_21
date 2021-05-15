@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620200832689",
+    "project_id": "diabretdetection",
+    "storage_bucket": "diabretdetection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620200832689:android:36886e3613128a13aa3c90",
+        "android_client_info": {
+          "package_name": "ncirl.x15015556.detect_diabetic_reinopathy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620200832689-q71uok1kukqm8nrsbhkqe9nmm47p4efa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA82ILlRUfnXKcauht4UiCWy_rLjc-fyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620200832689-q71uok1kukqm8nrsbhkqe9nmm47p4efa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

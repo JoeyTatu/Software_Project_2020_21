@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "ncirl.x15015556.detect_diabetic_reinopathy",
+  "variantName": "debug",
+  "elements": []
+}
