@@ -8,7 +8,7 @@
 * 2020/2021
 * Joey Tatú
 * 15015556
-* [joey@joeytatu.com](mailto:joey@joeytatu.com)
+* [x15015556@student.ncirl.ie](mailto:x15015556@student.ncirl.ie)
 
 ---
 
